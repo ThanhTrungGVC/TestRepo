@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>N6Shop Đăng ký</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="/PHP_ShopWeb/login/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/PHP_ShopWeb/login/css/main.css">
+<!--===============================================================================================-->
+</head>
+
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<a href="/PHP_ShopWeb">
+						<img src="/PHP_ShopWeb/public/login/images/img-02.png" alt="IMG">
+					</a>
+				</div>
+
+				<form class="login100-form validate-form" action="checksignup.php" method="post">
+					<span class="login100-form-title">
+						Đăng ký thành viên
+					</span>
+					
+					<div class="wrap-input100 validate-input" data-validate = "">
+						<td>Tên đăng nhập: </td>
+						<input class="input100" type="text" name="txtUsername" placeholder="Tên đăng nhập">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Mật khẩu không hợp lệ">
+						<td>Mật khẩu: </td>
+						<input class="input100" type="password" name="txtPassword" placeholder="Mật khẩu">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Email hợp lý có dạng: ex@abc.xyz">
+						<td>Email: </td>
+						<input class="input100" type="text" name="txtEmail" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "">
+						<td>Họ và Tên: </td>
+						<input class="input100" type="text" name="txtname" placeholder="Họ và tên">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button id="login" class="login100-form-btn">
+							ĐĂNG KÝ
+						</button>
+					</div>
+
+					<div class="text-center p-t-12">
+						<a class="txt2" href="/PHP_ShopWeb/login">
+							Đăng nhập 	|
+						</a>
+
+						<a class="txt2" href="/PHP_ShopWeb">
+							Trang chủ
+						</a>
+					</div>
+					
+				</form>
+
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="/PHP_ShopWeb/login/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/PHP_ShopWeb/login/vendor/bootstrap/js/popper.js"></script>
+	<script src="/PHP_ShopWeb/login/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/PHP_ShopWeb/login/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/PHP_ShopWeb/login/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="/PHP_ShopWeb/login/js/main.js"></script>
+
+</body>
+</html>
