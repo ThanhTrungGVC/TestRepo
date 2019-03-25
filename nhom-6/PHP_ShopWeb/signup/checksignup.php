@@ -6,7 +6,7 @@
     }
      
 
-    $con = mysqli_connect('localhost', 'root', '24021999') or die('Không thể kết nối CSDL: ');
+    $con = mysqli_connect('localhost', 'root', 'passwords') or die('Không thể kết nối CSDL: ');
     $selected = mysqli_select_db($con,"n6shop_database") or die ("Không chọn được database");
           
     //Khai báo utf-8 để hiển thị được tiếng việt
