@@ -2,8 +2,8 @@
 <?php
 session_start();
 
-    $con = mysqli_connect('localhost', 'root', '24021999') or die('Không thể kết nối CSDL: ');
-	$selected = mysqli_select_db($con,"n6shop_database") or die ("Không chọn được database");//chọn database đã tạo tên là demo
+    $con = mysqli_connect('localhost', 'root', 'passwords') or die('Không thể kết nối CSDL: ');
+	$selected = mysqli_select_db($con,"tên csdl") or die ("Không chọn được database");//chọn database đã tạo tên là demo
 	
 	$u = $p = "";
 	$u = $_POST['username'];
